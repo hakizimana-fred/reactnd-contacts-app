@@ -36,7 +36,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Route exact path='/' render={() => (
+        hello i am pp
+        {/* <Route exact path='/' render={() => (
           <ListContacts
             contacts={this.state.contacts}
             onDeleteContact={this.removeContact}
@@ -49,7 +50,7 @@ class App extends Component {
               history.push('/')
             }}
           />
-        )} />
+        )} /> */}
       </div>
     )
   }
